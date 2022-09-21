@@ -1,0 +1,30 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
+@{
+}
+<h1>Detalles de la Mascota</h1>
+<div>
+    id: @Model.mascota.Id
+</div>
+<div>
+    Nombre: @Model.mascota.Nombre 
+</div>
+<div>
+    Color: @Model.mascota.Color 
+</div>
+<div>
+    Especie: @Model.mascota.Especie 
+</div>
+<div>
+    Raza: @Model.mascota.Raza 
+</div>
+<div>
+    Dueño: @Model.mascota.Dueno 
+</div>
+<div>
+    Veterinario: @Model.mascota.Veterinario 
+</div>
+<div>
+    Historia: @Model.mascota.Historia 
+</div>
+<a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
